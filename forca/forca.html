@@ -1,0 +1,58 @@
+<DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+			<title>Forca</title>
+			<script src="js/forca.js"></script></script>
+			<link href="css/bootstrap.min.css" rel="stylesheet" />
+			<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+			<style>
+				.corpo{
+					margin:0px;
+					margin-bottom:-0px;
+					padding:0px;
+					border:0px solid;
+					font-size:400%;
+					text-align:center;
+					height:50px;
+				}
+				body {
+					margin: 0;
+					padding: 0;
+				}
+			</style>
+		</head>
+		<body>
+			<section>
+			
+				<div style="width:50%;margin:0 auto;">
+			
+					<div class="alert alert-info">FORCA</div>
+										
+					<div class="alert alert-info" id="texto"></div>
+					
+					<div id="letras"></div>
+					
+					<div id="acao">
+						<button class="btn btn-default" id="btnIniciar" onclick="iniciar()">Iniciar</button>
+						<button class="btn btn-default" id="btnEscolherPalavra" onclick="escolherPalavra()">Escolher Palavra</button>
+					</div>
+					
+					<div class="alert alert-info" id="letrasErradas"></div>
+					
+					<p></p>
+					
+					<div class="corpo" id="erro1" style="width:60px">O</div>
+					<div class="corpo" id="erro2" style="float:left;width:20px">/</div>
+					<div class="corpo" id="erro3" style="float:left;width:20px">|</div>
+					<div class="corpo" id="erro4" style="float:left;width:20px">\</div>
+					<div style="clear:both"></div>
+					<div class="corpo" id="erro5" style="float:left;width:30px">/</div>
+					<div class="corpo" id="erro6" style="float:left;width:30px">\</div>
+						
+					
+					
+				</div>
+			</section>
+		</body>
+	</html>
